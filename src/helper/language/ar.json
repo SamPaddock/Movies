@@ -1,0 +1,19 @@
+{
+      "screens": {
+            "home": "موفي",
+            "favorite": "المفضلة",
+            "pref": "التفضيلات"
+      },
+      "movie_type": {
+            "backdrops": "صور",
+            "logos": "الشعارات",
+            "posters": "الملصقات",
+            "popular": "الأكثر شهرة",
+            "nowPlaying": "يعرض الآن",
+            "topRated": "الأعلى تقييمًا",
+            "upcoming": "قريبًا"
+      },
+      "action": {
+            "see_all": "عرض الكل"
+      }
+}

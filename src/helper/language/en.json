@@ -1,0 +1,19 @@
+{
+      "screens": {
+            "home": "Movie",
+            "favorite": "Favorite",
+            "pref": "Preference"
+      },
+      "movie_type": {
+            "backdrops": "Pictures",
+            "logos": "Logos",
+            "posters": "Posters",
+            "popular": "Popular",
+            "nowPlaying": "Now Playing",
+            "topRated": "Top Rated",
+            "upcoming": "Coming Soon"
+      },
+      "action": {
+            "see_all": "See all"
+      }
+}

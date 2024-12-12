@@ -1,3 +1,9 @@
 {
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types"],
+    "types": ["react", "react-native", "react-redux", "env"] 
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"],
+  "include": ["src"],
   "extends": "@react-native/typescript-config/tsconfig.json"
 }
