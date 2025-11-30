@@ -5,34 +5,34 @@
 React Native CLI
 
 ## 2. Third Party Packages used in the app:
-   a. styled-components (for styling components) 
-   b. axios (for networking)
-   c. redux (for data management/storage)
-   d. react-native-async-storage (for data storage)
-   e. react-navigation, react-native-gesture-handler react-native-reanimated (for navigation)
-   f. react-native-bootsplash (for custom splash screen)
-   h. react-native-linear-gradient (for gradient style)
-   i. react-native-svg (for icons)
+   a. styled-components (for styling components) <br />
+   b. axios (for networking)<br />
+   c. redux (for data management/storage)<br />
+   d. react-native-async-storage (for data storage)<br />
+   e. react-navigation, react-native-gesture-handler react-native-reanimated (for navigation)<br />
+   f. react-native-bootsplash (for custom splash screen)<br />
+   h. react-native-linear-gradient (for gradient style)<br />
+   i. react-native-svg (for icons)<br />
 
 ## 3. API:
    Used FakeStoreAPI to simulate a shop experince and using the response to generate a category list.
 
 ## 4. App Screens:
-   * Home Screen:
-         * Shows marketing banner with dynamic texts and images
-         * A search text field that upon submitting query, it navigates to Search Screen
-         * List of Categories extracted from array of Products that navigates to Search Screen
-         * List of products that are clickablke and navigates to Product Screen to display additional details
-         * Array of Product is saved in storage and accessed when offline.
-   * Search Screen:
-         * If Screen is accessed by category, it displays products for that category and search only works of that category.
-         * If Screen is accessed by search query, it displays results for that query.
-         * Search query check both title and category
-         * If search results is cleared, all products are displyed for query and all products for a category for category.
-   * Product Screen:
-         * Display all product provided by FakeStoreAPI
-         * Display price in disabled "Add to Cart" button
-         * When Offline, product is accessed from saved Array of Products.
+   * Home Screen:<br />
+         * Shows marketing banner with dynamic texts and images<br />
+         * A search text field that upon submitting query, it navigates to Search Screen<br />
+         * List of Categories extracted from array of Products that navigates to Search Screen<br />
+         * List of products that are clickablke and navigates to Product Screen to display additional details<br />
+         * Array of Product is saved in storage and accessed when offline.<br />
+   * Search Screen:<br />
+         * If Screen is accessed by category, it displays products for that category and search only works of that category.<br />
+         * If Screen is accessed by search query, it displays results for that query.<br />
+         * Search query check both title and category<br />
+         * If search results is cleared, all products are displyed for query and all products for a category for category.<br />
+   * Product Screen:<br />
+         * Display all product provided by FakeStoreAPI<br />
+         * Display price in disabled "Add to Cart" button<br />
+         * When Offline, product is accessed from saved Array of Products.<br />
 
 ## 5. Project Structure:
    * src/ - App source code
