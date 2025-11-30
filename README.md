@@ -1,7 +1,8 @@
 # Getting Started
 
 >**Note**: React Native App developed to meet test requirement
-## 1. Framework React Native CLI
+## 1. Framework 
+React Native CLI
 
 ## 2. Third Party Packages used in the app:
    a. styled-components (for styling components) 
