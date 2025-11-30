@@ -18,18 +18,18 @@ React Native CLI
    Used FakeStoreAPI to simulate a shop experince and using the response to generate a category list.
 
 ## 4. App Screens:
-   a. Home Screen:
+   * Home Screen:
          * Shows marketing banner with dynamic texts and images
          * A search text field that upon submitting query, it navigates to Search Screen
          * List of Categories extracted from array of Products that navigates to Search Screen
          * List of products that are clickablke and navigates to Product Screen to display additional details
          * Array of Product is saved in storage and accessed when offline.
-   b. Search Screen:
+   * Search Screen:
          * If Screen is accessed by category, it displays products for that category and search only works of that category.
          * If Screen is accessed by search query, it displays results for that query.
          * Search query check both title and category
          * If search results is cleared, all products are displyed for query and all products for a category for category.
-   c. Product Screen:
+   * Product Screen:
          * Display all product provided by FakeStoreAPI
          * Display price in disabled "Add to Cart" button
          * When Offline, product is accessed from saved Array of Products.
